@@ -1,0 +1,138 @@
+[
+    {
+        "model": "dishlist.category",
+        "pk": 1,
+        "fields": {
+            "title": "Горяче",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 2,
+        "fields": {
+            "title": "Вторые блюда",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 3,
+        "fields": {
+            "title": "Напитки",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 4,
+        "fields": {
+            "title": "Закуски",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 5,
+        "fields": {
+            "title": "Бизнес ланч",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 6,
+        "fields": {
+            "title": "Первое",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 7,
+        "fields": {
+            "title": "От шефа",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 8,
+        "fields": {
+            "title": "Лучшее",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 9,
+        "fields": {
+            "title": "Напитки покрепче",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 10,
+        "fields": {
+            "title": "12",
+            "place": 6
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 19,
+        "fields": {
+            "title": "Хурма",
+            "place": 3
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 22,
+        "fields": {
+            "title": "ТаньШань",
+            "place": 3
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 23,
+        "fields": {
+            "title": "Холодное",
+            "place": 3
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 24,
+        "fields": {
+            "title": "assdasd",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 25,
+        "fields": {
+            "title": "Сезонное меню",
+            "place": 1
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 27,
+        "fields": {
+            "title": "завтраки",
+            "place": 11
+        }
+    },
+    {
+        "model": "dishlist.category",
+        "pk": 28,
+        "fields": {
+            "title": "Новая",
+            "place": 11
+        }
+    }
+]

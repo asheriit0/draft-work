@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% block title %} Меню Кафе {% endblock %}
+  </title>
+  <!-- Подключаем Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .navbar {
+      transition: top 0.3s;
+      z-index: 1000; /* Устанавливаем высокий z-index для плавающей шапки */
+    }
+    .fixed-top {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .container-fluid-menu {
+      position: fixed;
+      top: 56px;
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+      z-index: 999; /* Устанавливаем высокий z-index для горизонтального меню */
+    }
+    .container-fluid-menu .btn {
+      min-width: 100px;
+    }
+  </style>
+</head>
+<body>
+
+{% block navbar %}
+
+<!-- Шапка сайта (навбар) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'dashboard_menu' place_id %}"> Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'dashboard_menu' place_id %}">Меню</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'update_place_info' place_id %}">Профиль</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Корзина</a>
+        </li>
+
+        {% if user.is_authenticated %}
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'users:profile' %}"> {{user.username}}</a>
+            </li>
+          <li class="nav-item">
+          <a class="nav-link" href="{% url 'users:logout' %}">Выйти</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'users:login' %}">Войти</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'users:register' %}">Регистрация</a>
+        </li>
+        {% endif %}
+
+      </ul>
+    </div>
+  </nav>
+
+
+  {% include "basket/includes/included_basket.html" %}
+
+
+{% endblock %}
+
+{% block menu %} Горизонтальное меню {% endblock %}
+
+{% block place_bar %} Описание кафе {% endblock %}
+
+{% block ii_bar1 %}{% endblock %}
+
+{% block content %} Контент страницы {% endblock %}
+
+{% block basket %} {% endblock %}
+
+  <!-- Подключаем Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>

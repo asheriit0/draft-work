@@ -1,0 +1,377 @@
+[
+    {
+        "model": "dishlist.dishes",
+        "pk": 1,
+        "fields": {
+            "title": "Борщ",
+            "content": "по домашнему",
+            "photo": "photos/2024/04/23/1663635757_1-mykaleidoscope-ru-p-blyuda-iz-myasa-yeda-instagram-1.jpg",
+            "price": "123.00",
+            "is_public": true,
+            "update_at": "2024-04-23T08:30:09.758Z",
+            "category": 2,
+            "place": 1,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 2,
+        "fields": {
+            "title": "Шашлыкок",
+            "content": "из свиной шейки",
+            "photo": "photos/2024/04/27/1663635757_1-mykaleidoscope-ru-p-blyuda-iz-myasa-yeda-instagram-1.jpg",
+            "price": "140.00",
+            "is_public": true,
+            "update_at": "2024-04-27T19:02:21.695Z",
+            "category": 4,
+            "place": 1,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 3,
+        "fields": {
+            "title": "клементины",
+            "content": "в томате",
+            "photo": "photos/2024/04/27/vtorye-blyuda-ryba-kartofel-limon-lajm-ovoshhi-tarelka-eda-foto.jpg",
+            "price": "238.00",
+            "is_public": true,
+            "update_at": "2024-04-27T19:02:14.205Z",
+            "category": 4,
+            "place": 2,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 4,
+        "fields": {
+            "title": "Rsaf",
+            "content": "afsadf324",
+            "photo": "photos/2024/04/27/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-04-27T19:02:06.294Z",
+            "category": 3,
+            "place": 2,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 5,
+        "fields": {
+            "title": "asfdsdf",
+            "content": "asfdin;klasn",
+            "photo": "photos/2024/04/27/1663732925_18-mykaleidoscope-ru-p-blyuda-domashnei-kukhni-yeda-oboi-28.jpg",
+            "price": "120.00",
+            "is_public": true,
+            "update_at": "2024-04-27T19:01:57.199Z",
+            "category": 4,
+            "place": 2,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 6,
+        "fields": {
+            "title": "Шаверма",
+            "content": "фшывраджлфр",
+            "photo": "",
+            "price": "320.00",
+            "is_public": true,
+            "update_at": "2024-04-29T16:19:51.141Z",
+            "category": 4,
+            "place": 1,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 7,
+        "fields": {
+            "title": "dfgwert",
+            "content": "asfdasdf",
+            "photo": "",
+            "price": "432.00",
+            "is_public": true,
+            "update_at": "2024-04-29T19:49:21.490Z",
+            "category": 5,
+            "place": 2,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 8,
+        "fields": {
+            "title": "Морс",
+            "content": "из свеежей ягодки",
+            "photo": "photos/2024/04/29/1663732925_18-mykaleidoscope-ru-p-blyuda-domashnei-kukhni-yeda-oboi-28.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-04-29T19:51:56.464Z",
+            "category": 3,
+            "place": 3,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 9,
+        "fields": {
+            "title": "Суши",
+            "content": "фывафыа",
+            "photo": "photos/2024/04/29/3300x2200_637306_www.ArtFile.ru.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-04-29T20:13:02.921Z",
+            "category": 4,
+            "place": 3,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 10,
+        "fields": {
+            "title": "asdf",
+            "content": "asfdwer",
+            "photo": "",
+            "price": "123.00",
+            "is_public": true,
+            "update_at": "2024-05-01T06:51:48.471Z",
+            "category": 4,
+            "place": 1,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 13,
+        "fields": {
+            "title": "Хачапури по аджарски",
+            "content": "флываоджлфтывлад ывоалыфвтмлдфтлмтшыфвтмшщтывмшщтфывшщмыв",
+            "photo": "photos/2024/05/01/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-05-01T09:39:54.918Z",
+            "category": 1,
+            "place": 1,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 16,
+        "fields": {
+            "title": "Бишбармак",
+            "content": "бо баварски",
+            "photo": "photos/2024/05/03/3300x2200_637306_www.ArtFile.ru.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-05-03T16:05:57.065Z",
+            "category": 4,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 17,
+        "fields": {
+            "title": "Бишбармак2",
+            "content": "asdfasdf",
+            "photo": "photos/2024/05/03/1663635757_1-mykaleidoscope-ru-p-blyuda-iz-myasa-yeda-instagram-1.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-05-03T16:25:38.117Z",
+            "category": 5,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 18,
+        "fields": {
+            "title": "Картошка",
+            "content": "жареная",
+            "photo": "photos/2024/05/03/1663732925_18-mykaleidoscope-ru-p-blyuda-domashnei-kukhni-yeda-oboi-28.jpg",
+            "price": "456.00",
+            "is_public": true,
+            "update_at": "2024-05-03T16:30:39.540Z",
+            "category": 5,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 20,
+        "fields": {
+            "title": "Картошка3",
+            "content": "жареная",
+            "photo": "photos/2024/05/03/1663732925_18-mykaleidoscope-ru-p-blyuda-domashnei-kukhni-yeda-oboi-28_lxblQrI.jpg",
+            "price": "412.00",
+            "is_public": true,
+            "update_at": "2024-05-03T16:33:49.553Z",
+            "category": 5,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 24,
+        "fields": {
+            "title": "Окроша1",
+            "content": "вылфожаол",
+            "photo": "photos/2024/05/03/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1_FZwXalF.jpg",
+            "price": "34.00",
+            "is_public": true,
+            "update_at": "2024-05-07T07:47:04.360Z",
+            "category": 1,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 29,
+        "fields": {
+            "title": "Борщ с голушками",
+            "content": "вылфожаол",
+            "photo": "photos/2024/05/03/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1_SAOm86w.jpg",
+            "price": "34.00",
+            "is_public": true,
+            "update_at": "2024-05-09T17:40:59.578Z",
+            "category": 2,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 30,
+        "fields": {
+            "title": "Окроша1",
+            "content": "вылфожаол",
+            "photo": "photos/2024/05/03/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1_4k77g9H.jpg",
+            "price": "34.00",
+            "is_public": true,
+            "update_at": "2024-05-03T17:18:57.247Z",
+            "category": 2,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 31,
+        "fields": {
+            "title": "Салат",
+            "content": "с сосисками",
+            "photo": "photos/2024/05/03/1663635757_1-mykaleidoscope-ru-p-blyuda-iz-myasa-yeda-instagram-1_SvncPxU.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-05-03T17:52:39.274Z",
+            "category": 4,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 32,
+        "fields": {
+            "title": "Новый супер салат",
+            "content": "из тунца",
+            "photo": "photos/2024/05/07/1663635757_1-mykaleidoscope-ru-p-blyuda-iz-myasa-yeda-instagram-1.jpg",
+            "price": "370.00",
+            "is_public": true,
+            "update_at": "2024-05-07T08:12:17.487Z",
+            "category": 4,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 33,
+        "fields": {
+            "title": "Суп фасоль",
+            "content": "суп с фасолью",
+            "photo": "photos/2024/05/07/vtorye-blyuda-ryba-kartofel-limon-lajm-ovoshhi-tarelka-eda-foto.jpg",
+            "price": "123.00",
+            "is_public": true,
+            "update_at": "2024-05-07T08:56:26.017Z",
+            "category": 1,
+            "place": 10,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 34,
+        "fields": {
+            "title": "CУП ХАРЧО",
+            "content": "ывфполдывопдлтлдвыатфывдлаж",
+            "photo": "photos/2024/05/07/vtorye-blyuda-ryba-kartofel-limon-lajm-ovoshhi-tarelka-eda-foto_7JrVV7w.jpg",
+            "price": "120.00",
+            "is_public": true,
+            "update_at": "2024-05-07T19:22:17.779Z",
+            "category": 10,
+            "place": 10,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 35,
+        "fields": {
+            "title": "Суп сухой",
+            "content": "с тертой фасолью и стрючками сморчками",
+            "photo": "photos/2024/05/09/vtorye-blyuda-ryba-kartofel-limon-lajm-ovoshhi-tarelka-eda-foto.jpg",
+            "price": "359.00",
+            "is_public": true,
+            "update_at": "2024-05-09T17:39:52.674Z",
+            "category": 5,
+            "place": 6,
+            "author": null
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 36,
+        "fields": {
+            "title": "Петриди",
+            "content": "фыдлваоыфлжв",
+            "photo": "photos/2024/05/11/vtorye-blyuda-ryba-kartofel-limon-lajm-ovoshhi-tarelka-eda-foto.jpg",
+            "price": "234.00",
+            "is_public": true,
+            "update_at": "2024-05-11T10:46:51.979Z",
+            "category": 6,
+            "place": 6,
+            "author": 1
+        }
+    },
+    {
+        "model": "dishlist.dishes",
+        "pk": 37,
+        "fields": {
+            "title": "ТаньШань",
+            "content": "фывафыа",
+            "photo": "photos/2024/05/21/объем_выборки.webp",
+            "price": "432.00",
+            "is_public": true,
+            "update_at": "2024-05-21T09:00:33.864Z",
+            "category": 27,
+            "place": 11,
+            "author": 12
+        }
+    }
+]

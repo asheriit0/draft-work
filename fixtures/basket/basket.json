@@ -1,0 +1,189 @@
+[
+    {
+        "model": "basket.basketitem",
+        "pk": 21,
+        "fields": {
+            "dishe": 3,
+            "quantity": 3,
+            "date_added": "2024-05-01T18:28:42.744Z",
+            "session": null,
+            "price_per_item": "2.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 22,
+        "fields": {
+            "dishe": 4,
+            "quantity": 1,
+            "date_added": "2024-05-01T19:37:21.860Z",
+            "session": null,
+            "price_per_item": "2.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 52,
+        "fields": {
+            "dishe": 24,
+            "quantity": 1,
+            "date_added": "2024-05-11T12:23:47.728Z",
+            "session": null,
+            "price_per_item": "2.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 53,
+        "fields": {
+            "dishe": 29,
+            "quantity": 1,
+            "date_added": "2024-05-11T12:23:50.952Z",
+            "session": null,
+            "price_per_item": "2.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 54,
+        "fields": {
+            "dishe": 30,
+            "quantity": 1,
+            "date_added": "2024-05-11T12:23:52.451Z",
+            "session": null,
+            "price_per_item": "2.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 58,
+        "fields": {
+            "dishe": 30,
+            "quantity": 1,
+            "date_added": "2024-05-11T13:35:32.772Z",
+            "session": null,
+            "price_per_item": "34.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 59,
+        "fields": {
+            "dishe": 29,
+            "quantity": 1,
+            "date_added": "2024-05-11T14:06:08.445Z",
+            "session": null,
+            "price_per_item": "34.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 60,
+        "fields": {
+            "dishe": 16,
+            "quantity": 1,
+            "date_added": "2024-05-11T14:53:46.924Z",
+            "session": null,
+            "price_per_item": "234.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 61,
+        "fields": {
+            "dishe": 30,
+            "quantity": 1,
+            "date_added": "2024-05-19T10:05:11.432Z",
+            "session": null,
+            "price_per_item": "34.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 62,
+        "fields": {
+            "dishe": 29,
+            "quantity": 1,
+            "date_added": "2024-05-19T10:05:16.811Z",
+            "session": null,
+            "price_per_item": "34.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 63,
+        "fields": {
+            "dishe": 16,
+            "quantity": 1,
+            "date_added": "2024-05-19T10:05:28.095Z",
+            "session": null,
+            "price_per_item": "234.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 64,
+        "fields": {
+            "dishe": 13,
+            "quantity": 1,
+            "date_added": "2024-05-21T18:04:52.406Z",
+            "session": null,
+            "price_per_item": "234.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 65,
+        "fields": {
+            "dishe": 1,
+            "quantity": 1,
+            "date_added": "2024-05-21T18:04:54.886Z",
+            "session": null,
+            "price_per_item": "123.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 66,
+        "fields": {
+            "dishe": 2,
+            "quantity": 2,
+            "date_added": "2024-05-21T18:04:57.255Z",
+            "session": null,
+            "price_per_item": "140.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 67,
+        "fields": {
+            "dishe": 6,
+            "quantity": 1,
+            "date_added": "2024-05-21T18:13:13.796Z",
+            "session": null,
+            "price_per_item": "320.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 68,
+        "fields": {
+            "dishe": 2,
+            "quantity": 1,
+            "date_added": "2024-05-21T18:13:55.963Z",
+            "session": null,
+            "price_per_item": "140.00"
+        }
+    },
+    {
+        "model": "basket.basketitem",
+        "pk": 69,
+        "fields": {
+            "dishe": 6,
+            "quantity": 1,
+            "date_added": "2024-05-21T18:13:57.662Z",
+            "session": null,
+            "price_per_item": "320.00"
+        }
+    }
+]

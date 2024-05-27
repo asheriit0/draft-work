@@ -1,0 +1,72 @@
+{% load static %}
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: white;">
+            <div class="modal-header" style="border-color: grey;">
+                <h5 class="modal-title" id="exampleModalLabel" style="color: black">Корзина
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    style="background-color: aliceblue;"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="card mb-3 text-bg-light shadow-lg" style="border: none;">
+                    <div class="card-header" style="background: grey; border-color: white;">
+                        <h5 class="card-title" style="color: black">Товар</h5>
+                    </div>
+                    <ul class="list-group list-group-flush" style="border-color: black;">
+                        <li class="list-group-item" style="background: rgb(158, 158, 158); border-color: black;">
+                            <div class="row text-center">
+                                <div class="col p-0">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-dark btn-sm decrement"
+                                                data-cart-id="" data-cart-change-url="">-</button>
+                                        </span>
+                                        <input type="text" class="form-control number" value="1" readonly>
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-dark btn-sm increment"
+                                                data-cart-id="" data-cart-change-url="">+</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col p-0" style="color: black;">
+                                    <p>x 100.00 = </p>
+                                </div>
+                                <div class="col p-0" style="color: black;"><strong>100.00 $</strong>
+                                </div>
+                                <div class="col p-0">
+                                    <a href="#" class="remove-from-cart" data-cart-id="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="color: black;"
+                                            width="20" height="20" fill="currentColor" class="bi bi-trash"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card mb-3 shadow-lg">
+                    <div class="card-footer rounded" style="background: rgb(158, 158, 158);">
+                        <p class="float-left" style="color: black">Итого <strong>1</strong> товар(а)
+                            на сумму</p>
+                        <h4 class="float-left" style="color: black"><strong>100.00 $</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <a type="button" class="btn btn-primary"
+                    style="background: black; border: none; color: white"
+                    href="../meat-production-git/orders/create_order.html">Оформить заказ</a>
+            </div>
+
+        </div>
+    </div>
+  </div>

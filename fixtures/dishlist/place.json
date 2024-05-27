@@ -1,0 +1,101 @@
+[
+    {
+        "model": "dishlist.place",
+        "pk": 1,
+        "fields": {
+            "title_place": "Клен",
+            "author": 2,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 2,
+        "fields": {
+            "title_place": "У Анзора",
+            "author": 3,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 3,
+        "fields": {
+            "title_place": "Ромашка",
+            "author": 4,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 4,
+        "fields": {
+            "title_place": "У дяди Макса",
+            "author": 5,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 5,
+        "fields": {
+            "title_place": "Пушистый шмель",
+            "author": 6,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 6,
+        "fields": {
+            "title_place": "Шмели",
+            "author": 1,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 7,
+        "fields": {
+            "title_place": "Goga palace",
+            "author": 7,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 8,
+        "fields": {
+            "title_place": "lol kafe",
+            "author": 8,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 9,
+        "fields": {
+            "title_place": "lol kafe",
+            "author": 9,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 10,
+        "fields": {
+            "title_place": "kakakafe",
+            "author": 10,
+            "place_info": null
+        }
+    },
+    {
+        "model": "dishlist.place",
+        "pk": 11,
+        "fields": {
+            "title_place": "New",
+            "author": 12,
+            "place_info": null
+        }
+    }
+]
